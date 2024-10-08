@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #333;
-    color: green;
+    color: blue;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav ul li a {
 .hero {
     position: relative;
     text-align: center;
-    color: blue;
+    color: white;
 }
 
 .hero img {
