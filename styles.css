@@ -81,7 +81,41 @@ nav ul li a {
     width: 300px;  /* Tamaño igual a la imagen 1 */
     height: auto;
 }
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    /* Cambiar las imágenes a 100% del ancho para móviles */
+    .galeria .imagenes {
+        flex-direction: column; /* Las imágenes se apilan verticalmente */
+        align-items: center;
+    }
 
+    .galeria .imagen img {
+        width: 100%; /* Las imágenes ocuparán el 100% del ancho del contenedor */
+        max-width: 300px; /* Para limitar el tamaño máximo de la imagen */
+        margin-bottom: 20px; /* Espacio entre imágenes */
+    }
+
+    /* Ajustar otros elementos para pantallas pequeñas */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero img {
+        height: auto; /* Asegura que la imagen principal sea responsiva */
+        width: 100%;
+    }
+}
 .contacto {
     padding: 40px 20px;
     background-color: #f4f4f4;
