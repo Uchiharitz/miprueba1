@@ -67,6 +67,21 @@ nav ul li a {
     text-align: center;
 }
 
+.galeria .imagen1 img {
+    width: 300px;  /* Tamaño de la imagen 1 */
+    height: auto;
+}
+
+.galeria .imagen2 img {
+    width: 500px;  /* Tamaño más grande para la imagen 2 */
+    height: auto;
+}
+
+.galeria .imagen3 img {
+    width: 300px;  /* Tamaño igual a la imagen 1 */
+    height: auto;
+}
+
 .contacto {
     padding: 40px 20px;
     background-color: #f4f4f4;
